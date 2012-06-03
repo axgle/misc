@@ -1,4 +1,4 @@
-imports aDOX.Catalog
+
 module main
  Const Jet10 = 1
 Const Jet11 = 2
@@ -7,7 +7,7 @@ Const Jet3x = 4
 Const Jet4x = 5
 
 sub main()
- 
+
 
 'CreateObject("wscript.shell").run("cmd /c set path=%path%;%windir%\system32")
 
