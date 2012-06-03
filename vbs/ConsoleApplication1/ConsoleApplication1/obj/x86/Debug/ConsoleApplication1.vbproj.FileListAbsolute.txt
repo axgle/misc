@@ -1,0 +1,11 @@
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.xml
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.Resources.resources
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.xml
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\sony\Desktop\github\misc\vbs\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.vbproj.ResolveComReference.cache
