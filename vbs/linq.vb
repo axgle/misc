@@ -6,8 +6,18 @@ Module file
         Dim arr As String() = New String() {"aaa", "bbb", "ccc!"}
         Dim r = arr.where(Function(i) Len(i) = 4)
         For Each i As String In r
-            console.Write(i)
+            console.Writeline(i)
         Next
+		console.Writeline("---")
+
+		'http://msdn.microsoft.com/en-us/library/bb763068.aspx
+		Dim rr = from a In arr
+				 where Len(a)=3
+
+       For Each j As String In rr
+            console.Writeline(j)
+       Next
+
         console.read()
     End Sub
     Sub main2()
