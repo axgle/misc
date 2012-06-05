@@ -4,6 +4,10 @@ Imports System.Text
 Module demo
     Sub main()
         echo(getMd5("1"))
+
+    End Sub
+    Sub qq(ByVal s,Optional ss as date=Nothing)
+
     End Sub
     Sub echo(ByVal s)
         console.WriteLine(s)
