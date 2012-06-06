@@ -16,10 +16,9 @@ Module main
 
         wc.Headers("user-agent") = "firefox"
         Dim data = wc.downloadstring(url)
-        Dim enconde = New UTF8Encoding()
 
         'if page charset=utf-8,convert to gb2312
-        'data = enconde.GetString(Encoding.Convert(Encoding.UTF8, Encoding.GetEncoding("gb2312"), enconde.GetBytes(data)))
+        'data = UTF8ToGB2312(data)
 
         Dim reg = New Regex("<a.*?href=""([^>]+?)"".*?>([^>]+?)</a>")
         For Each m In reg.matches(data)
@@ -29,4 +28,8 @@ Module main
         Console.WriteLine(wc.Encoding.ToString)
         wc.Dispose()
     End Sub
+    Function UTF8ToGB2312(ByVal s As String)
+        Dim enconde = New UTF8Encoding()
+        Return enconde.GetString(encoding.Convert(Encoding.UTF8, Encoding.GetEncoding("gb2312"), enconde.GetBytes(s)))
+    End Function
 End Module
